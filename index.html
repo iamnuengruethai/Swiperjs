@@ -165,13 +165,15 @@
         </div>
         <!-- If we need pagination -->
         <div class="swiper-pagination"></div>
-
+     
         <!-- If we need navigation buttons -->
         <div class="swiper-button-prev"></div>
         <div class="swiper-button-next"></div>
 
         <!-- If we need scrollbar -->
         <div class="swiper-scrollbar"></div>
+
+        
     </div>
     <!-- mobile -->
     <!-- Slider main container -->
@@ -188,13 +190,27 @@
         <div class="swiper-pagination"></div>
 
         <!-- If we need navigation buttons -->
-        <div class="swiper-button-prev"></div>
-        <div class="swiper-button-next"></div>
+
 
         <!-- If we need scrollbar -->
         <div class="swiper-scrollbar"></div>
     </div>
+<div class="container-fluid my-4">
+    <h1>Video introduction</h1>
+    <div class="row">
+        <div class="col-lg-4">
+            <video src="Video/intro.mp4" controls autoplay loop class="img-fluid" width="100%"></video>
+        </div>
+        <div class="col-lg-4">
+            <video src="Video/intro.mp4" controls autoplay loop class="img-fluid" width="100%"></video>
+        </div>
+        <div class="col-lg-4">
+            <iframe src="https://player.vimeo.com/video/444256798" width="100%" height="270" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 
+        </div>
+    </div>
+
+</div>
     <div class="container-fluid">
         <h1>Swiper Slide</h1>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi odit facilis voluptate deserunt ipsam dolores quae maiores iusto quo, ullam animi, ab iure voluptatibus architecto, molestias delectus cum rerum quod!</p>
@@ -228,10 +244,7 @@
             },
             hideOnClick : 	true,
             // Navigation arrows
-            navigation: {
-                nextEl: '.swiper-button-next',
-                prevEl: '.swiper-button-prev',
-            },
+
 
 
             })
